@@ -14,6 +14,10 @@ gem"importmap-rails"
 # https://github.com/hotwired/turbo-rails
 gem "turbo-rails"
 
+# View components for Ruby on Rails apps
+gem "view_component"
+
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
