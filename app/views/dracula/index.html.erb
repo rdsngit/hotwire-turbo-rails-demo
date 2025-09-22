@@ -1,0 +1,16 @@
+<h1>Dracula Theme with Hotwire</h1>
+
+<div>
+  <p>This is a demo of using Hotwire with a Dracula theme. Click the buttons below to change the image.</p>
+</div>
+
+<div>
+  <%= render ButtonComponent.new(label: "Dracula Novel", link: image_dracula_path, params: { image: 'novel'}) %>
+  <%= render ButtonComponent.new(label: "Dracula Castle", link: image_dracula_path, params: { image: 'castle'}) %>
+</div>
+
+<hr>
+
+<div>
+  <%= render partial: 'image', locals: { file: 'dracula/novel.jpg' } %>
+</div>
