@@ -1,24 +1,31 @@
-# README
+# Hotwire for Ruby on Rails with Dracula Theme
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails web app to demo the use of the front-end libraries View Components and Hotwire.
 
-Things you may want to cover:
+It uses the topic theme of Dracula as this is the name of a popular Dev tool colour theme: https://draculatheme.com/
 
-* Ruby version
+## Setup
 
-* System dependencies
+Install the Ruby version in the `.ruby-version` file then run the terminal command `bundle install`.
 
-* Configuration
+## Run the web app
 
-* Database creation
+Using the terminal navigate to the root of the project directory and run the command:
 
-* Database initialization
+```sh
+bin/dev
+```
 
-* How to run the test suite
+Then open your internet browser, such as Chrome, and visit `http://localhost:3000/`
 
-* Services (job queues, cache servers, search engines, etc.)
+Click on the buttons on the webpage to see the Dracula themed imaged replaced using the Hotwire library.
 
-* Deployment instructions
+## Front-end libraries used
 
-* ...
+- View components for Ruby on Rails apps: https://viewcomponent.org/guide
+- Turbo frames updated using the morph refresh method: https://turbo.hotwired.dev/handbook
+
+## Image sources
+
+- Dracula novel image source: https://commons.wikimedia.org/wiki/Category:Dracula#/media/File:Dracula-First-Edition-1897.jpg
+- Dracula castle image source: https://commons.wikimedia.org/wiki/File:Castle_Dracula.jpg
