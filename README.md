@@ -2,6 +2,9 @@
 
 This is a Ruby on Rails web app to demo the use of the front-end libraries View Components and Hotwire.
 
+- View Components: https://viewcomponent.org/
+- Hotwire: https://hotwired.dev/
+
 It uses the topic theme of Dracula as this is the name of a popular Dev tool colour theme: https://draculatheme.com/
 
 ## Setup
