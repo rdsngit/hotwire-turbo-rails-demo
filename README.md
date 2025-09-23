@@ -29,3 +29,8 @@ Click on the buttons on the webpage to see the Dracula themed imaged replaced us
 
 - Dracula novel image source: https://commons.wikimedia.org/wiki/Category:Dracula#/media/File:Dracula-First-Edition-1897.jpg
 - Dracula castle image source: https://commons.wikimedia.org/wiki/File:Castle_Dracula.jpg
+
+## Screenshots
+
+![Screenshot with image of Dracula novel](screenshots/screenshot-dracual-novel.png)
+![Screenshot with image of Dracula castle](screenshots/screenshot-dracula-castle.png)
