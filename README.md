@@ -1,9 +1,10 @@
-# Hotwire for Ruby on Rails with Dracula Theme
+# Hotwire Turbo for Ruby on Rails with Dracula Theme
 
-This is a Ruby on Rails web app to demo the use of the front-end libraries View Components and Hotwire.
+This is a Ruby on Rails web app to demo the use of the front-end libraries View Components and Hotwire Turbo.
 
 - View Components: https://viewcomponent.org/
-- Hotwire: https://hotwired.dev/
+- Hotwire Turbo Website: https://turbo.hotwired.dev/
+- Hotwire Turbo Rails Gem: https://github.com/hotwired/turbo-rails
 
 It uses the topic theme of Dracula as this is the name of a popular Dev tool colour theme: https://draculatheme.com/
 
