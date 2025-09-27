@@ -34,7 +34,7 @@ Example image view component rendered in demo app image view partial:
 
 https://github.com/rdsngit/hotwire-turbo-rails-demo/blob/d36dfae72ab93f45ec5ce8b0517b7bd047d34232/app/views/dracula/_image.html.erb#L1-L3
 
-Turbo frames updated using the morph refresh method: https://turbo.hotwired.dev/handbook
+Turbo frames updated using the morph refresh method: https://turbo.hotwired.dev/handbook/page_refreshes#morphing
 
 https://github.com/rdsngit/hotwire-turbo-rails-demo/blob/d36dfae72ab93f45ec5ce8b0517b7bd047d34232/app/views/layouts/application.html.erb#L13
 
