@@ -26,8 +26,19 @@ Click on the buttons on the webpage to see the Dracula themed imaged replaced us
 
 ## Front-end libraries used
 
-- View components for Ruby on Rails apps: https://viewcomponent.org/guide
-- Turbo frames updated using the morph refresh method: https://turbo.hotwired.dev/handbook
+View components for Ruby on Rails apps: https://viewcomponent.org/guide
+
+Example view component rendered in demo app image view partial:
+
+https://github.com/rdsngit/hotwire-turbo-rails-demo/blob/d36dfae72ab93f45ec5ce8b0517b7bd047d34232/app/views/dracula/_image.html.erb#L1-L3
+
+Turbo frames updated using the morph refresh method: https://turbo.hotwired.dev/handbook
+
+https://github.com/rdsngit/hotwire-turbo-rails-demo/blob/d36dfae72ab93f45ec5ce8b0517b7bd047d34232/app/views/layouts/application.html.erb#L13
+
+When the `DraculaController`'s `#image` action is sent a `POST` request with a param for one of images it will respond `turbo_stream.replace` with the rendered image generated from the view partial:
+
+https://github.com/rdsngit/hotwire-turbo-rails-demo/blob/d36dfae72ab93f45ec5ce8b0517b7bd047d34232/app/controllers/dracula_controller.rb#L18-L24
 
 ## Image sources
 
